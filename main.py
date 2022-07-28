@@ -74,7 +74,7 @@ def openDB(): #open a file
     list = getDBList() #get list of files
     for n, i in enumerate(list):
         print(f"{n}: {i}") #print the list
-    print("What set would you like to open? (type the name or number)")
+    print("What set would you like to open?")
 
     while True:
         selection = input("> ") #get input
